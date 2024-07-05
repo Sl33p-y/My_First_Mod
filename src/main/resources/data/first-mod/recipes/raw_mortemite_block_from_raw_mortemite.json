@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "&&&",
+    "&&&",
+    "&&&"
+  ],
+  "key": {
+    "&": {
+      "item": "first-mod:raw_mortemite"
+    }
+  },
+  "result": {
+    "id": "first-mod:raw_mortemite_block"
+  }
+}

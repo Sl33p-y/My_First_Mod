@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 700,
+  "experience": 10,
+  "group": "mortemite",
+  "ingredient": {
+    "item": "first-mod:raw_mortemite"
+  },
+  "result": {
+    "id": "first-mod:mortemite"
+  }
+}
