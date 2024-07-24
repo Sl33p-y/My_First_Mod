@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_MORTEMITE);
                         entries.add(ModBlocks.MORTEMITE_BLOCK);
                         entries.add(ModBlocks.RAW_MORTEMITE_BLOCK);
+                        entries.add(ModItems.YUZU);
+                        entries.add(ModItems.GILDED_COAL);
                     }).build());
 
     public static void registerItemGroups() {

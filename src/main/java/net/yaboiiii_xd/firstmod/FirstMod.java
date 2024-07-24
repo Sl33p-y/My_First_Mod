@@ -2,6 +2,7 @@ package net.yaboiiii_xd.firstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.yaboiiii_xd.firstmod.block.ModBlocks;
 import net.yaboiiii_xd.firstmod.item.ModItemGroups;
 import net.yaboiiii_xd.firstmod.item.ModItems;
@@ -17,7 +18,7 @@ public class FirstMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
-
+		FuelRegistry.INSTANCE.add(ModItems.GILDED_COAL, 2500);
 		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -12,10 +12,13 @@ import net.yaboiiii_xd.firstmod.FirstMod;
 public class ModItems {
     public static final Item MORTEMITE = registerItem("mortemite", new Item(new Item.Settings()));
     public static final Item RAW_MORTEMITE = registerItem("raw_mortemite", new Item(new Item.Settings()));
+    public static final Item GILDED_COAL = registerItem("gilded_coal", new Item(new Item.Settings()));
+    public static final Item YUZU = registerItem("yuzu", new Item(new Item.Settings().food(ModFoodComponents.YUZU)));
 
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);
         entries.add(RAW_MORTEMITE);
+        entries.add(YUZU);
     }
 
     private static Item registerItem (String name, Item item) {
