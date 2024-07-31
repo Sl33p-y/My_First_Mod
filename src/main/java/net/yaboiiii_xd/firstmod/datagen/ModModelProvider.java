@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORTEMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
+
     }
 
     @Override

@@ -5,5 +5,9 @@
 "block.first-mod.mortemite_block": "Block of Mortemite",
 "block.first-mod.raw_mortemite_block": "Block of Raw Mortemite",
 "item.first-mod.yuzu": "Yuzu",
-"item.first-mod.gilded_coal": "Gilded Coal"
+"item.first-mod.gilded_coal": "Gilded Coal",
+"item.first-mod.mortemite_ore": "Mortemite Ore",
+"item.first-mod.deepslate_mortemite_ore": "Deepslate Mortemite Ore",
+"item.first-mod.soul_soil_mortemite_ore": "Soul Soil Mortemite Ore"
+
 }
