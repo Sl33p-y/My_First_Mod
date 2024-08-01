@@ -1,3 +1,4 @@
-// 1.20.6	2024-07-31T15:04:34.2708918	First Mod/Tags for minecraft:block
+// 1.20.6	2024-08-01T11:04:06.3298078	First Mod/Tags for minecraft:block
+cfab2ab481bf476a645d326b87627918009b9e50 data\fabric\tags\blocks\needs_tool_level_5.json
 e90610f3430bc963aeab7b06bcf8ca589449d433 data\fabric\tags\blocks\needs_tool_level_4.json
-cb9844303460489fc5f955223c0828b8341e4c3d data\minecraft\tags\blocks\needs_diamond_tool.json
+0ed73e96110b121c1f0b908aacf4283dc831eac7 data\minecraft\tags\blocks\needs_diamond_tool.json

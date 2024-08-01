@@ -1,19 +1,19 @@
-// 1.20.6	2024-07-31T15:04:34.2718922	First Mod/Model Definitions
+// 1.20.6	2024-08-01T11:04:06.330806	First Mod/Model Definitions
 f0277a95fca5bd5a67cbdd8ff93a058e2dc3570a assets\first-mod\models\item\deepslate_mortemite_ore.json
 787a72935318e691c8564bae962b0631515fdb9f assets\first-mod\models\item\yuzu.json
+fd421ba280375a7336461c88da0093c49f25403b assets\first-mod\models\item\mortemite_longsword.json
+d72cb3b2aadd3bad4b50e106a9921b0fa43a2802 assets\first-mod\models\item\mortemite_axe.json
 4a2b0393f2c504cf006f341afbab07d6a5784d68 assets\first-mod\models\item\raw_mortemite.json
-c759998686ce6942340df3147a451a12fdcfecfd assets\first-mod\models\item\mortemite.json
 83385db4ed7e3f30c0cfd6c8f0fa06f87815aa01 assets\first-mod\models\item\nether_mortemite_ore.json
+c759998686ce6942340df3147a451a12fdcfecfd assets\first-mod\models\item\mortemite.json
 a83382422861283c984dc4fc5c0e697af1c39534 assets\first-mod\models\block\mortemite_block.json
-a909bc2c9bc152d3915fc04ec1cd788496188177 assets\first-mod\models\item\mortemite_ore.json
+7abe123dee6238dc04fd58799519cbe40888d044 assets\first-mod\models\item\mortemite_pickaxe.json
+29b335a1e425590142a279b514390c91ab192416 assets\first-mod\blockstates\nether_mortemite_ore.json
 99509033ceff8ea90f372cbd953c2bb3296452de assets\first-mod\blockstates\raw_mortemite_block.json
 cd6d59c2ac3ecf0c9cef78ea37741de7a2a49c9d assets\first-mod\blockstates\mortemite_block.json
-29b335a1e425590142a279b514390c91ab192416 assets\first-mod\blockstates\nether_mortemite_ore.json
 71249b76e074ccb4534337eb53c96f22adfcb97f assets\first-mod\blockstates\deepslate_mortemite_ore.json
 72059497c55d37c690c14bd07da76786dcde4871 assets\first-mod\models\block\nether_mortemite_ore.json
 67ac7fc315d5c3ea48eeb40b893fbde9423fe359 assets\first-mod\models\block\raw_mortemite_block.json
-99f9d5dbf3770cfb3876f212cc24e5a534047e71 assets\first-mod\models\block\mortemite_ore.json
-3e488dc6551fd0d56c35b9dc69a965510abf499d assets\first-mod\blockstates\mortemite_ore.json
 f52fdf543f636fa77a1a64f3356fa69287972bbd assets\first-mod\models\block\deepslate_mortemite_ore.json
 5f84e3520b878cc6eeecabc51a6bf44bde718c3f assets\first-mod\models\item\raw_mortemite_block.json
 8f84490fcbd2262f00b78b765651df36b16364b6 assets\first-mod\models\item\mortemite_block.json

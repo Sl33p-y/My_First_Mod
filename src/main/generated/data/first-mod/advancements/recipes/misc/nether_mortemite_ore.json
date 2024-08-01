@@ -1,11 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mortemite_ore": {
+    "has_raw_mortemite": {
       "conditions": {
         "items": [
           {
-            "items": "first-mod:mortemite_ore"
+            "items": "first-mod:raw_mortemite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone"
           }
         ]
       },
@@ -13,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mortemite_from_blasting_mortemite_ore"
+        "recipe": "minecraft:nether_mortemite_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mortemite_ore"
+      "has_stone",
+      "has_raw_mortemite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mortemite_from_blasting_mortemite_ore"
+      "minecraft:nether_mortemite_ore"
     ]
   }
 }

@@ -27,7 +27,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_MORTEMITE_BLOCK);
         addDrop(ModBlocks.MORTEMITE_BLOCK);
 
-        addDrop(ModBlocks.MORTEMITE_ORE, mortemiteOreDrops(ModBlocks.MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
         addDrop(ModBlocks.DEEPSLATE_MORTEMITE_ORE, mortemiteOreDrops(ModBlocks.DEEPSLATE_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
         addDrop(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, netherMortemiteOreDrops(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
 

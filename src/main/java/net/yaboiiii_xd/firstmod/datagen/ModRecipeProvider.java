@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    private static final List<ItemConvertible> MORTEMITE_SMELTABLES = List.of(ModItems.RAW_MORTEMITE,
-            ModBlocks.MORTEMITE_ORE,
+    private static final List<ItemConvertible> MORTEMITE_SMELTABLES = List.of(
+            ModItems.RAW_MORTEMITE,
             ModBlocks.DEEPSLATE_MORTEMITE_ORE,
             ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
 
@@ -33,15 +33,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MORTEMITE, RecipeCategory.DECORATIONS, ModBlocks.MORTEMITE_BLOCK);
        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_MORTEMITE, RecipeCategory.DECORATIONS, ModBlocks.RAW_MORTEMITE_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MORTEMITE_ORE, 1)
-                .pattern("SSS")
-                .pattern("SRS")
-                .pattern("SSS")
-                .input('S', Items.STONE)
-                .input('R', ModItems.RAW_MORTEMITE)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
-                .criterion(hasItem(ModItems.RAW_MORTEMITE), conditionsFromItem(ModItems.RAW_MORTEMITE))
-                .offerTo(exporter, Identifier.tryParse((getRecipeName(ModBlocks.MORTEMITE_ORE))));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DEEPSLATE_MORTEMITE_ORE, 1)
                 .pattern("SSS")
                 .pattern("SRS")
@@ -51,5 +42,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DEEPSLATE), conditionsFromItem(Items.DEEPSLATE))
                 .criterion(hasItem(ModItems.RAW_MORTEMITE), conditionsFromItem(ModItems.RAW_MORTEMITE))
                 .offerTo(exporter, Identifier.tryParse((getRecipeName(ModBlocks.DEEPSLATE_MORTEMITE_ORE))));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SOUL_SOIL_MORTEMITE_ORE, 1)
+                .pattern("SSS")
+                .pattern("SRS")
+                .pattern("SSS")
+                .input('S', Items.SOUL_SOIL)
+                .input('R', ModItems.RAW_MORTEMITE)
+                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
+                .criterion(hasItem(ModItems.RAW_MORTEMITE), conditionsFromItem(ModItems.RAW_MORTEMITE))
+                .offerTo(exporter, Identifier.tryParse((getRecipeName(ModBlocks.SOUL_SOIL_MORTEMITE_ORE))));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SOUL_SOIL_MORTEMITE_ORE, 1);
     }
 }

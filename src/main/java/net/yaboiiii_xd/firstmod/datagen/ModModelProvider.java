@@ -17,7 +17,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORTEMITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_MORTEMITE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORTEMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
 
@@ -29,5 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_MORTEMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.YUZU, Models.GENERATED);
         itemModelGenerator.register(ModItems.GILDED_COAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MORTEMITE_LONGSWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MORTEMITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MORTEMITE_PICKAXE, Models.HANDHELD);
     }
 }
