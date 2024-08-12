@@ -28,8 +28,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_MORTEMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.YUZU, Models.GENERATED);
         itemModelGenerator.register(ModItems.GILDED_COAL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MORTEMITE_LONGSWORD, Models.HANDHELD);
+       /* itemModelGenerator.register(ModItems.MORTEMITE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MORTEMITE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MORTEMITE_PICKAXE, Models.HANDHELD);
+        */
     }
 }

@@ -21,9 +21,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_MORTEMITE_BLOCK);
                         entries.add(ModItems.YUZU);
                         entries.add(ModItems.GILDED_COAL);
-                        entries.add(ModItems.MORTEMITE_PICKAXE);
+                        /*entries.add(ModItems.MORTEMITE_PICKAXE);
                         entries.add(ModItems.MORTEMITE_LONGSWORD);
-                        entries.add(ModItems.MORTEMITE_AXE);
+                        entries.add(ModItems.MORTEMITE_AXE);*/
                         entries.add(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
                         entries.add(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
                     }).build());
