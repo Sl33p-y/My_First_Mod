@@ -17,18 +17,16 @@ public class ModItems {
             new Item(new Item.Settings()));
     public static final Item YUZU = registerItem("yuzu",
             new Item(new Item.Settings().food(ModFoodComponents.YUZU)));
-    /*
-        public static final Item MORTEMITE_PICKAXE = registerItem("mortemite_pickaxe",
+    public static final Item MORTEMITE_PICKAXE = registerItem("mortemite_pickaxe",
             new PickaxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
-        public static final Item MORTEMITE_LONGSWORD = registerItem("mortemite_longsword",
+    public static final Item MORTEMITE_LONGSWORD = registerItem("mortemite_longsword",
            new SwordItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
-        public static final Item MORTEMITE_AXE = registerItem("mortemite_axe",
+    public static final Item MORTEMITE_AXE = registerItem("mortemite_axe",
            new AxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
-        */
+
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);
         entries.add(RAW_MORTEMITE);
-        entries.add(YUZU);
     }
 
     private static Item registerItem (String name, Item item) {
