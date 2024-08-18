@@ -1,5 +1,5 @@
 // 1.20.6	2024-08-01T11:04:06.3318066	First Mod/Block Loot Tables
-91384739518a283c6a462e67ed12adddaea44b19 data\first-mod\loot_tables\blocks\mortemite_block.json
-628198c4cb2e219a798e2be5083568f50bd6cc4a data\first-mod\loot_tables\blocks\deepslate_mortemite_ore.json
-2c64d694ad5d116b164f8e4f686939beec24dbbb data\first-mod\loot_tables\blocks\nether_mortemite_ore.json
-225db7e9cdbd210c50a183259098970dc7fda75c data\first-mod\loot_tables\blocks\raw_mortemite_block.json
+91384739518a283c6a462e67ed12adddaea44b19 data\FirstMod.MOD_ID\loot_tables\blocks\mortemite_block.json
+628198c4cb2e219a798e2be5083568f50bd6cc4a data\FirstMod.MOD_ID\loot_tables\blocks\deepslate_mortemite_ore.json
+2c64d694ad5d116b164f8e4f686939beec24dbbb data\FirstMod.MOD_ID\loot_tables\blocks\nether_mortemite_ore.json
+225db7e9cdbd210c50a183259098970dc7fda75c data\FirstMod.MOD_ID\loot_tables\blocks\raw_mortemite_block.json

@@ -5,9 +5,9 @@
   "experience": 5.0,
   "group": "mortemite",
   "ingredient": {
-    "item": "first-mod:nether_mortemite_ore"
+    "item": "FirstMod.MOD_ID:nether_mortemite_ore"
   },
   "result": {
-    "id": "first-mod:mortemite"
+    "id": "FirstMod.MOD_ID:mortemite"
   }
 }

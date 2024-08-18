@@ -5,9 +5,9 @@
   "experience": 5.0,
   "group": "mortemite",
   "ingredient": {
-    "item": "first-mod:deepslate_mortemite_ore"
+    "item": "FirstMod.MOD_ID:deepslate_mortemite_ore"
   },
   "result": {
-    "id": "first-mod:mortemite"
+    "id": "FirstMod.MOD_ID:mortemite"
   }
 }

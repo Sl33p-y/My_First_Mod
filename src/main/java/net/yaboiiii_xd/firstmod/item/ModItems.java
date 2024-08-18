@@ -20,9 +20,11 @@ public class ModItems {
     public static final Item MORTEMITE_PICKAXE = registerItem("mortemite_pickaxe",
             new PickaxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
     public static final Item MORTEMITE_LONGSWORD = registerItem("mortemite_longsword",
-           new SwordItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
+           new SwordItem(ModToolMaterial.MORTEMITE, new Item.Settings()
+                   .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.MORTEMITE, 0, -1))));
     public static final Item MORTEMITE_AXE = registerItem("mortemite_axe",
-           new AxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
+           new AxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()
+                   .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.MORTEMITE, 2, -2))));
 
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);

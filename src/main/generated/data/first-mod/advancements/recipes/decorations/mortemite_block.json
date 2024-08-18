@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "first-mod:mortemite"
+            "items": "FirstMod.MOD_ID:mortemite"
           }
         ]
       },

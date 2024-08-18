@@ -15,7 +15,7 @@ public enum ModToolMaterial implements ToolMaterial {
                     ("firstmod", "mortemite_tools")),
             2549,
             26f,
-            20f,
+            10f,
             26,
             () -> Ingredient.ofItems(ModItems.MORTEMITE));
 

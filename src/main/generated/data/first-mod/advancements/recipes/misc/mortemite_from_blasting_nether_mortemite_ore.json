@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "first-mod:nether_mortemite_ore"
+            "items": "FirstMod.MOD_ID:nether_mortemite_ore"
           }
         ]
       },

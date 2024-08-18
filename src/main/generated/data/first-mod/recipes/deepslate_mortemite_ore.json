@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "first-mod:raw_mortemite"
+      "item": "FirstMod.MOD_ID:raw_mortemite"
     },
     "S": {
       "item": "minecraft:deepslate"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "first-mod:deepslate_mortemite_ore"
+    "id": "FirstMod.MOD_ID:deepslate_mortemite_ore"
   }
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "first-mod:raw_mortemite"
+      "item": "FirstMod.MOD_ID:raw_mortemite"
     },
     "S": {
       "item": "minecraft:soul_soil"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "first-mod:soul_soil_mortemite_ore"
+    "id": "FirstMod.MOD_ID:soul_soil_mortemite_ore"
   }
 }

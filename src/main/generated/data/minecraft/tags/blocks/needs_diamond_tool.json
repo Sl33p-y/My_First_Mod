@@ -1,6 +1,6 @@
 {
   "values": [
-    "first-mod:raw_mortemite_block",
-    "first-mod:deepslate_mortemite_ore"
+    "FirstMod.MOD_ID:raw_mortemite_block",
+    "FirstMod.MOD_ID:deepslate_mortemite_ore"
   ]
 }

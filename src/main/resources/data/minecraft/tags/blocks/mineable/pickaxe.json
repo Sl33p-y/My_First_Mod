@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "first-mod:mortemite_block",
-    "first-mod:raw_mortemite_block"
+    "FirstMod.MOD_ID:mortemite_block",
+    "FirstMod.MOD_ID:raw_mortemite_block"
   ]
 }

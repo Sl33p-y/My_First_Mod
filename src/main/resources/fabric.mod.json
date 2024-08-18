@@ -3,16 +3,16 @@
 	"id": "first-mod",
 	"version": "${version}",
 	"name": "First Mod",
-	"description": "This is my first ever mod!!!",
+	"description": "This is my first ever mod",
 	"authors": [
-		"Me!"
+		"YaBoiiii_XD"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/first-mod/icon.png",
+	"icon": "assets/FirstMod.MOD_ID/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
