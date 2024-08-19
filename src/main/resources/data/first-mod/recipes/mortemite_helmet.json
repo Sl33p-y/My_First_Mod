@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#H#",
+    "#S#",
+    ""
+  ],
+  "key": {
+    "#": {
+      "item": "first-mod:mortemite"
+    },
+    "H": {
+      "item": "minecraft.netherite_helmet"
+    },
+    "S": {
+      "item": "minecraft.skeleton_skull"
+    }
+  },
+  "result": {
+    "id": "first-mod:mortemite_block"
+  }
+}

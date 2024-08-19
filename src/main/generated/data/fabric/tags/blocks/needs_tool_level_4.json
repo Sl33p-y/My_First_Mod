@@ -1,6 +1,6 @@
 {
   "values": [
-    "FirstMod.MOD_ID:mortemite_block",
-    "FirstMod.MOD_ID:soul_soil_mortemite_ore"
+    "first-mod:mortemite_block",
+    "first-mod:soul_soil_mortemite_ore"
   ]
 }

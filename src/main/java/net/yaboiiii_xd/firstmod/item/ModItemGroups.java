@@ -24,6 +24,10 @@ public class ModItemGroups {
                         entries.add(ModItems.MORTEMITE_PICKAXE);
                         entries.add(ModItems.MORTEMITE_LONGSWORD);
                         entries.add(ModItems.MORTEMITE_AXE);
+                        entries.add(ModItems.MORTEMITE_HELMET);
+                        entries.add(ModItems.MORTEMITE_CHESTPLATE);
+                        entries.add(ModItems.MORTEMITE_LEGGINGS);
+                        entries.add(ModItems.MORTEMITE_BOOTS);
                         entries.add(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
                         entries.add(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
                     }).build());

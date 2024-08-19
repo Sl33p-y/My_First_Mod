@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "FirstMod.MOD_ID:deepslate_mortemite_ore"
+            "items": "first-mod:deepslate_mortemite_ore"
           }
         ]
       },

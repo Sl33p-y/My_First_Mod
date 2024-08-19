@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "first-mod:mortemite"
+    },
+    "C": {
+      "item": "minecraft.netherite_chestplate"
+    }
+  },
+  "result": {
+    "id": "first-mod:mortemite_block"
+  }
+}

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "FirstMod.MOD_ID:raw_mortemite"
+            "items": "first-mod:raw_mortemite"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:nether_mortemite_ore"
+        "recipe": "minecraft:soul_soil_mortemite_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:nether_mortemite_ore"
+      "minecraft:soul_soil_mortemite_ore"
     ]
   }
 }

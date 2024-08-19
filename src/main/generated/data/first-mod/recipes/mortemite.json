@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "FirstMod.MOD_ID:mortemite_block"
+      "item": "first-mod:mortemite_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "FirstMod.MOD_ID:mortemite"
+    "id": "first-mod:mortemite"
   }
 }

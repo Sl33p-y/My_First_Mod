@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nether_mortemite_ore": {
+    "has_soul_soil_mortemite_ore": {
       "conditions": {
         "items": [
           {
-            "items": "FirstMod.MOD_ID:nether_mortemite_ore"
+            "items": "first-mod:soul_soil_mortemite_ore"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mortemite_from_blasting_nether_mortemite_ore"
+        "recipe": "minecraft:mortemite_from_blasting_soul_soil_mortemite_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_nether_mortemite_ore"
+      "has_soul_soil_mortemite_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mortemite_from_blasting_nether_mortemite_ore"
+      "minecraft:mortemite_from_blasting_soul_soil_mortemite_ore"
     ]
   }
 }

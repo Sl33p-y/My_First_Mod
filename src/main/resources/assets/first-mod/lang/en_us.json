@@ -11,5 +11,9 @@
 "block.first-mod.soul_soil_mortemite_ore": "Soul Soil Mortemite Ore",
 "item.first-mod.mortemite_pickaxe": "Mortemite Pickaxe",
 "item.first-mod.mortemite_longsword": "Mortemite Longsword",
-"item.first-mod.mortemite_axe": "Mortemite Double-axe"
+"item.first-mod.mortemite_axe": "Mortemite Doubleaxe",
+"item.first-mod.mortemite_helmet": "Mortemite Helmet",
+"item.first-mod.mortemite_chestplate": "Mortemite Chestplate",
+"item.first-mod.mortemite_leggings": "Mortemite Leggings",
+"item.first-mod.mortemite_boots": "Mortemite Boots"
 }

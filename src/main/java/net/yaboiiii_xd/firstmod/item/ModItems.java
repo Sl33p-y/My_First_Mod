@@ -17,6 +17,8 @@ public class ModItems {
             new Item(new Item.Settings()));
     public static final Item YUZU = registerItem("yuzu",
             new Item(new Item.Settings().food(ModFoodComponents.YUZU)));
+    public static final Item LEGENDARY_YUZU = registerItem("legendary_yuzu",
+            new Item(new Item.Settings().food(ModFoodComponents.LEGENDARY_YUZU)));
     public static final Item MORTEMITE_PICKAXE = registerItem("mortemite_pickaxe",
             new PickaxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()));
     public static final Item MORTEMITE_LONGSWORD = registerItem("mortemite_longsword",
@@ -25,6 +27,14 @@ public class ModItems {
     public static final Item MORTEMITE_AXE = registerItem("mortemite_axe",
            new AxeItem(ModToolMaterial.MORTEMITE, new Item.Settings()
                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.MORTEMITE, 2, -2))));
+    public static final Item MORTEMITE_HELMET = registerItem("mortemite_helmet",
+        new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final Item MORTEMITE_CHESTPLATE = registerItem("mortemite_chestplate",
+            new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final Item MORTEMITE_LEGGINGS = registerItem("mortemite_leggings",
+            new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.LEGGINGS, new Item.Settings()));
+    public static final Item MORTEMITE_BOOTS = registerItem("mortemite_boots",
+            new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.BOOTS, new Item.Settings()));
 
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);

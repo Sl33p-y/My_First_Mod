@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "FirstMod.MOD_ID:deepslate_mortemite_ore"
+              "name": "first-mod:deepslate_mortemite_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "FirstMod.MOD_ID:raw_mortemite"
+              "name": "first-mod:raw_mortemite"
             }
           ]
         }

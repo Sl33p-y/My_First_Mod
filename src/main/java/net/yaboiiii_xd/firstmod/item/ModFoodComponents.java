@@ -7,4 +7,8 @@ public class ModFoodComponents {
             .nutrition(5)
             .saturationModifier(1.9f)
             .build();
+    public static final FoodComponent LEGENDARY_YUZU = new FoodComponent.Builder()
+            .nutrition(20)
+            .saturationModifier(20f)
+            .build();
 }

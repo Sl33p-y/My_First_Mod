@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "FirstMod.MOD_ID:raw_mortemite_block"
+          "name": "first-mod:raw_mortemite_block"
         }
       ],
       "rolls": 1.0
