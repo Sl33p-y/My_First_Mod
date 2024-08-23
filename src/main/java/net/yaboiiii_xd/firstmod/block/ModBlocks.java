@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.yaboiiii_xd.firstmod.FirstMod;
+import net.yaboiiii_xd.firstmod.block.custom.JalapenoCropBlock;
 
 public class ModBlocks {
     public static final Block MORTEMITE_BLOCK = registerBlock("mortemite_block",
@@ -19,6 +20,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).hardness(45)));
     public static final Block DEEPSLATE_MORTEMITE_ORE = registerBlock("deepslate_mortemite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).hardness(50)));
+    public static final Block JALAPENO_CROP = Registry.register(Registries.BLOCK, new Identifier(FirstMod.MOD_ID, "jalapeno_crop"),
+            new JalapenoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT).nonOpaque()));
 
 
 

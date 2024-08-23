@@ -1,4 +1,5 @@
-// 1.20.6	2024-08-18T21:05:28.420919	First Mod/Block Loot Tables
+// 1.20.6	2024-08-21T18:30:32.9955278	First Mod/Block Loot Tables
+37d2f60eb0a06917628eeb34dc4459a1fbd0430c data\first-mod\loot_tables\blocks\jalapeno_crop.json
 91384739518a283c6a462e67ed12adddaea44b19 data\first-mod\loot_tables\blocks\mortemite_block.json
 628198c4cb2e219a798e2be5083568f50bd6cc4a data\first-mod\loot_tables\blocks\deepslate_mortemite_ore.json
 d787fe4884f48ac6ad3017fb950f526bf0ba73dc data\first-mod\loot_tables\blocks\soul_soil_mortemite_ore.json

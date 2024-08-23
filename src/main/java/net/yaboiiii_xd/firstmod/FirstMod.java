@@ -19,6 +19,8 @@ public class FirstMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		FuelRegistry.INSTANCE.add(ModItems.GILDED_COAL, 2500);
+		LOGGER.info("Testing, testing. Does this thing work? -YaBoiiii_XD");
+		LOGGER.info("...");
 		LOGGER.info("Hello Fabric world!");
 	}
 }

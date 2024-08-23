@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 import net.yaboiiii_xd.firstmod.block.ModBlocks;
+import net.yaboiiii_xd.firstmod.block.custom.JalapenoCropBlock;
 import net.yaboiiii_xd.firstmod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -20,7 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_MORTEMITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
-
+        blockStateModelGenerator.registerCrop(ModBlocks.JALAPENO_CROP, JalapenoCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
     }
 
     @Override

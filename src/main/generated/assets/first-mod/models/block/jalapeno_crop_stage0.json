@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "first-mod:block/jalapeno_crop_stage0"
+  }
+}

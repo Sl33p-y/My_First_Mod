@@ -6,13 +6,16 @@ import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryWrapper;
 import net.yaboiiii_xd.firstmod.block.ModBlocks;
+import net.yaboiiii_xd.firstmod.block.custom.JalapenoCropBlock;
 import net.yaboiiii_xd.firstmod.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -29,7 +32,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.DEEPSLATE_MORTEMITE_ORE, mortemiteOreDrops(ModBlocks.DEEPSLATE_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
         addDrop(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, netherMortemiteOreDrops(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
-
+        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.JALAPENO_CROP).properties(StatePredicate.Builder.create()
+                .exactMatch(JalapenoCropBlock.AGE, 5));
+        addDrop(ModBlocks.JALAPENO_CROP, cropDrops(ModBlocks.JALAPENO_CROP, ModItems.JALAPENO, ModItems.JALAPENO_SEEDS, builder));
     }
 
     public LootTable.Builder mortemiteOreDrops(Block drop, Item item) {

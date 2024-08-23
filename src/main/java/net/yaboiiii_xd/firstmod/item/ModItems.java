@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.yaboiiii_xd.firstmod.FirstMod;
+import net.yaboiiii_xd.firstmod.block.ModBlocks;
 
 public class ModItems {
     public static final Item MORTEMITE = registerItem("mortemite",
@@ -35,6 +36,10 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.LEGGINGS, new Item.Settings()));
     public static final Item MORTEMITE_BOOTS = registerItem("mortemite_boots",
             new ArmorItem(ModArmorMaterials.MORTEMITE, ArmorItem.Type.BOOTS, new Item.Settings()));
+    public static final Item JALAPENO_SEEDS = registerItem("jalapeno_seeds",
+            new AliasedBlockItem(ModBlocks.JALAPENO_CROP, new Item.Settings()));
+    public static final Item JALAPENO = registerItem("jalapeno",
+            new Item(new Item.Settings()));
 
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);

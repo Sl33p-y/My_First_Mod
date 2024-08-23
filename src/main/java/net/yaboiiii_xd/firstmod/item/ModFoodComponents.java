@@ -11,4 +11,8 @@ public class ModFoodComponents {
             .nutrition(20)
             .saturationModifier(20f)
             .build();
+    public static final FoodComponent JALAPENO = new FoodComponent.Builder()
+            .nutrition(3)
+            .saturationModifier(3.5f)
+            .build();
 }

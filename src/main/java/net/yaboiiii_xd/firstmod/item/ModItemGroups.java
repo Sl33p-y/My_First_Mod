@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MORTEMITE_BLOCK);
                         entries.add(ModBlocks.RAW_MORTEMITE_BLOCK);
                         entries.add(ModItems.YUZU);
+                        entries.add(ModItems.LEGENDARY_YUZU);
                         entries.add(ModItems.GILDED_COAL);
                         entries.add(ModItems.MORTEMITE_PICKAXE);
                         entries.add(ModItems.MORTEMITE_LONGSWORD);
@@ -30,6 +31,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MORTEMITE_BOOTS);
                         entries.add(ModBlocks.DEEPSLATE_MORTEMITE_ORE);
                         entries.add(ModBlocks.SOUL_SOIL_MORTEMITE_ORE);
+                        entries.add(ModItems.JALAPENO_SEEDS);
+                        entries.add(ModItems.JALAPENO);
                     }).build());
 
     public static void registerItemGroups() {
