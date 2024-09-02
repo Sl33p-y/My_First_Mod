@@ -39,7 +39,7 @@ public class ModItems {
     public static final Item JALAPENO_SEEDS = registerItem("jalapeno_seeds",
             new AliasedBlockItem(ModBlocks.JALAPENO_CROP, new Item.Settings()));
     public static final Item JALAPENO = registerItem("jalapeno",
-            new Item(new Item.Settings()));
+            new Item(new Item.Settings().food(ModFoodComponents.JALAPENO)));
 
     private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         entries.add(MORTEMITE);

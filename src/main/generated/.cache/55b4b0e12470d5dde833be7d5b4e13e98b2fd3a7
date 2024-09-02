@@ -1,4 +1,4 @@
-// 1.20.6	2024-08-21T18:30:32.9935317	First Mod/Model Definitions
+// 1.20.6	2024-08-24T08:40:24.3944056	First Mod/Model Definitions
 2597acb6a2491a3a8b8d7554ddcdb262fee26e18 assets\first-mod\models\item\mortemite_chestplate_diamond_trim.json
 5cee5e20ab870338b0c618127dca038db12d8f97 assets\first-mod\models\block\jalapeno_crop_stage1.json
 72a2474ccf62c8b78514ed20c6f04089934ca714 assets\first-mod\models\item\mortemite_chestplate_lapis_trim.json
@@ -16,6 +16,7 @@ b616cb803042215f66b5e004e3ab421e7900e794 assets\first-mod\models\item\mortemite_
 fd421ba280375a7336461c88da0093c49f25403b assets\first-mod\models\item\mortemite_longsword.json
 677fd36bb03dcc7fb77f123a6794798c65fd6d17 assets\first-mod\models\item\mortemite_boots_netherite_trim.json
 d72cb3b2aadd3bad4b50e106a9921b0fa43a2802 assets\first-mod\models\item\mortemite_axe.json
+16def57b0302c9363b8f9f0fb37c6f07a8897dd5 assets\first-mod\models\item\legendary_yuzu.json
 4a2b0393f2c504cf006f341afbab07d6a5784d68 assets\first-mod\models\item\raw_mortemite.json
 8bf7a23118590e186f2dc1d9e9565b4bbe087551 assets\first-mod\models\item\mortemite_boots.json
 9f5b84692ba2b09156938adba7e08c140364ad15 assets\first-mod\models\item\mortemite_leggings_quartz_trim.json
@@ -29,8 +30,8 @@ ed85c6f6bbe8250c9f8cc329a1e48a664cb4d257 assets\first-mod\models\item\soul_soil_
 1ea2c3556fbcbd002b0aa6349fdd5f3059eced30 assets\first-mod\models\item\mortemite_helmet_quartz_trim.json
 e3776a3241958b1b305d1cc1df5c8d66dc2f7d2a assets\first-mod\models\item\mortemite_chestplate_emerald_trim.json
 593fa6e83fade739ecf4847f25255abf2a05a832 assets\first-mod\models\item\mortemite_helmet_netherite_trim.json
-f52fdf543f636fa77a1a64f3356fa69287972bbd assets\first-mod\models\block\deepslate_mortemite_ore.json
 40cdfe77f8bfdffffb893b84c8b192c99906986b assets\first-mod\models\item\mortemite_boots_diamond_trim.json
+f52fdf543f636fa77a1a64f3356fa69287972bbd assets\first-mod\models\block\deepslate_mortemite_ore.json
 8f84490fcbd2262f00b78b765651df36b16364b6 assets\first-mod\models\item\mortemite_block.json
 c92d339699bd4d421da08d39ebe227e23be271e9 assets\first-mod\models\block\jalapeno_crop_stage4.json
 d991ab7c5fa015e4ce1995fca4b04c97793d7a12 assets\first-mod\models\item\mortemite_helmet_gold_trim.json
@@ -51,17 +52,18 @@ cd6d59c2ac3ecf0c9cef78ea37741de7a2a49c9d assets\first-mod\blockstates\mortemite_
 67ac7fc315d5c3ea48eeb40b893fbde9423fe359 assets\first-mod\models\block\raw_mortemite_block.json
 442ad65f442d6d7f4646d8053c9d58a29833a320 assets\first-mod\models\item\mortemite_boots_gold_trim.json
 f0277a95fca5bd5a67cbdd8ff93a058e2dc3570a assets\first-mod\models\item\deepslate_mortemite_ore.json
-e4de0ed19779cc3a70fe3ace7e99b92eef5b1af5 assets\first-mod\models\item\mortemite_helmet_iron_trim.json
 381e8fd88d0700e26ef35c739bfbffb383001777 assets\first-mod\models\item\mortemite_boots_redstone_trim.json
+e4de0ed19779cc3a70fe3ace7e99b92eef5b1af5 assets\first-mod\models\item\mortemite_helmet_iron_trim.json
 d8b9264fdb3238b7c573e41395999d78ea33ab14 assets\first-mod\models\item\mortemite_chestplate_amethyst_trim.json
 a2153f8ca955d6351aaf91f8d65bfce9d17772bc assets\first-mod\models\block\soul_soil_mortemite_ore.json
 902c1b02a67e04c287241570a1e498bfc10e4ee0 assets\first-mod\models\item\mortemite_helmet_copper_trim.json
 3e3ae3be009d08d6a5b3511d0640309774e86ca5 assets\first-mod\blockstates\jalapeno_crop.json
 84e3ad90b5ffec20b178349c6fe5dbbe703f2ba1 assets\first-mod\models\item\mortemite_boots_amethyst_trim.json
 7abe123dee6238dc04fd58799519cbe40888d044 assets\first-mod\models\item\mortemite_pickaxe.json
+ed0423611128ef41f5ef2cded8d13937a2fd0fab assets\first-mod\models\item\jalapeno.json
 c21064a9177cde9ecb48f6c07e85a1d24a562629 assets\first-mod\models\item\mortemite_chestplate_iron_trim.json
-14307033928676d64edafe6aaa4c40be98c1ecab assets\first-mod\models\block\jalapeno_crop_stage6.json
 9593950466097c912a6f4027c5795729bc114bc2 assets\first-mod\models\item\mortemite_leggings_amethyst_trim.json
+14307033928676d64edafe6aaa4c40be98c1ecab assets\first-mod\models\block\jalapeno_crop_stage6.json
 d9326a16d3b571e0049dc10bf6a3b877b33ab71b assets\first-mod\models\item\mortemite_chestplate_quartz_trim.json
 b69a3955f1a75555f69eb6b5354c947aaf0e683d assets\first-mod\models\item\mortemite_leggings_copper_trim.json
 d13db4572f05471f2ea52559a7c7df4a5878750e assets\first-mod\models\block\jalapeno_crop_stage0.json

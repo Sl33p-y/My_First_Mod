@@ -29,6 +29,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MORTEMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MORTEMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.YUZU, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEGENDARY_YUZU, Models.GENERATED);
         itemModelGenerator.register(ModItems.GILDED_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.MORTEMITE_LONGSWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MORTEMITE_AXE, Models.HANDHELD);
@@ -37,5 +38,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MORTEMITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MORTEMITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MORTEMITE_BOOTS));
+        itemModelGenerator.register(ModItems.JALAPENO, Models.GENERATED);
     }
 }

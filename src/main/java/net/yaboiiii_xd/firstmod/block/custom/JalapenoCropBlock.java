@@ -15,8 +15,6 @@ public class JalapenoCropBlock extends CropBlock {
 
     public JalapenoCropBlock(Settings settings) {
         super(settings);
-    } {
-
     }
 
     @Override

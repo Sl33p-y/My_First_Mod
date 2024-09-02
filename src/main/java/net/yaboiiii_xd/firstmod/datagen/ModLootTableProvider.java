@@ -33,7 +33,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_MORTEMITE_ORE, mortemiteOreDrops(ModBlocks.DEEPSLATE_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
         addDrop(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, netherMortemiteOreDrops(ModBlocks.SOUL_SOIL_MORTEMITE_ORE, ModItems.RAW_MORTEMITE));
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.JALAPENO_CROP).properties(StatePredicate.Builder.create()
-                .exactMatch(JalapenoCropBlock.AGE, 5));
+                .exactMatch(JalapenoCropBlock.AGE, 6));
         addDrop(ModBlocks.JALAPENO_CROP, cropDrops(ModBlocks.JALAPENO_CROP, ModItems.JALAPENO, ModItems.JALAPENO_SEEDS, builder));
     }
 
